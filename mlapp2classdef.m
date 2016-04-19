@@ -11,6 +11,9 @@ function mlapp2classdef()
 %
 % MLAPP2CLASSDEF assumes that the targeted *.mlapp file is a GUI created by
 % MATLAB's App Designer. Other packaged apps are not explicitly supported.
+%
+% (C) 2016 StackOverflowMATLABchat 
+% https://github.com/StackOverflowMATLABchat/mlapp2classdef
 
 if verLessThan('matlab', '7.9')
     error('mlapp2classdef:UnsupportedMATLABver', ...
